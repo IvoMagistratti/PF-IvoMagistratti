@@ -86,6 +86,7 @@ footer ul {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-size: .5rem;
 }
 
 
@@ -264,22 +265,47 @@ main {
 }
 
 aside {
-    width: 40%;
-    margin: 3rem;
+    width: 30%;
+    margin: 1rem;
+}
+
+@media(min-width:768px){
+    aside {
+        width: 30%;
+        margin: 3rem;
+    }
+    
 }
 
 aside div {
-    width: 30%;
-    height: 60rem;
+    width:3rem;
+    height: 40rem;
     background-color: gray;
-    border-radius: 3rem;
+    border-radius: 2rem;
     color: white;
     text-align: center;
-    margin-left: 10rem;
+    margin-left: 1rem;
+}
+
+@media(min-width:768px){
+    aside div {
+        width: 30%;
+        height: 62rem;
+        border-radius: 3rem;
+        text-align: center;
+        margin-left: 10rem;
+    }
 }
 
 .titulo-profesionales {
-    font-size: 4rem;
+    font-size: 2.5rem;
+}
+
+@media(min-width:768px){
+    .titulo-profesionales {
+        font-size: 4rem;
+    }
+    
 }
 
 .seccion-profesionales {
@@ -291,8 +317,14 @@ aside div {
 }
 
 .abogado {
-    width: 8rem;
-    border-radius: 2rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+@media(min-width:768px){
+    .abogado {
+        width: 8rem;
+    }
 }
 
 .nombre-abogado {
@@ -300,17 +332,43 @@ aside div {
     color: #fff;
     text-shadow: 0 0 4px #000;
     text-align: center;
-    padding: 2rem;
-    width: 20rem;
-    font-size: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1rem;
     border-radius: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+@media(min-width:768px){
+    .nombre-abogado {
+        background-color: gray;
+        color: #fff;
+        text-shadow: 0 0 4px #000;
+        text-align: center;
+        padding: 1.5rem;
+        width: 20rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+        margin-left: 6.5rem;
+    }
 }
 
 .p-abogado {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     text-shadow: 0 0 6px #000;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .p-abogado {
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 0 0 6px #000;
+        margin-left: 3rem;
+    }
 }
 
 .info-abogado{
@@ -331,10 +389,28 @@ aside div {
     margin-top: 3rem;
 }
 
+@media(min-width:768px){
+    .seccion-especialidad {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+}
+
 .imagen-especialidad {
-    width: 20rem;
+    width: 8rem;
     border-radius: 2rem;
-    margin: 4rem 6rem;
+    margin: 4rem 1rem;
+}
+
+@media(min-width:768px){
+    .imagen-especialidad {
+        width: 20rem;
+        border-radius: 2rem;
+        margin: 4rem 6rem;
+    }
 }
 
 .derecho {
@@ -342,20 +418,34 @@ aside div {
     color: #fff;
     text-shadow: 0 0 4px #000;
     text-align: center;
-    padding: 2rem;
-    width: 30rem;
-    font-size: 2rem;
+    padding: 1rem;
+    width: 14rem;
+    font-size: 1rem;
     border-radius: 2rem;
-    margin-left: 10rem;
+    margin-left: 1.5rem;
+}
+
+@media(min-width:768px){
+    .derecho {
+        padding: 2rem;
+        width: 30rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+        margin-left: 22.6%;
+    }
 }
 
 .p-derecho {
-    font-size: 1.2rem;
-    color: #fff;
-    text-shadow: 0 0 10px #000;
+    font-size: .7rem;
+    color: gray;
     text-align: center;
 }
 
+@media(min-width:768px){
+    .p-derecho {
+        font-size: 1.2rem;
+    }
+}
 .info-especialidad{
     display: flex;
     flex-direction: row;
@@ -367,39 +457,76 @@ aside div {
 /* Estilos Nosotros */
 
 .titulo-nosotros {
-    font-size: 7rem;
+    font-size: 4rem;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 10px #000;
 }
 
+@media(min-width:768px){
+    .titulo-nosotros {
+        font-size: 7rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+    }
+}
+
 .p-nosotros {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 0 0 6px #000;
-    margin: 2rem;
+    color: gray;
+    margin: 1rem;
+}
+
+@media(min-width:768px){
+    .p-nosotros {
+        font-size: 2rem;
+        text-align: center;
+        margin: 2rem;
+    }
 }
 
 .contactanos {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .contactanos-h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 10px #000;
 }
 
+@media(min-width:768px){
+    .contactanos-h3 {
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+    }
+    
+}
+
 .contactanos-a {
-    padding: 1rem;
+    padding: .5rem;
     background-color: gray;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 1.5rem;
+}
+
+@media(min-width:768px){
+    .contactanos-a {
+        padding: 1rem;
+        background-color: gray;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 1.5rem;
+    }
 }
 
 /* Fin estilos nosotros */
@@ -407,17 +534,31 @@ aside div {
 /* Estilos contacto */
 
 .contacto-h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    margin-top: 2rem;
+}
+
+@media(min-width:768px){
+    .contacto-h2 {
+        font-size: 3rem;
+    }
+}
+
+.contacto-h3 {
     font-size: 3rem;
     color: #fff;
     text-align: center;
     text-shadow: 0 0 10px #000;
+    margin-top: 3rem;
 }
 
-.contacto-h3 {
-    font-size: 4rem;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 10px #000;
+@media(min-width:768px){
+    .contacto-h3 {
+        font-size: 4rem;
+    }
 }
 
 .label {
