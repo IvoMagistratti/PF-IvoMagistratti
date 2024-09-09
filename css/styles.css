@@ -130,7 +130,7 @@ main {
   }
 }
 .imagen-texto-index2 {
-  background-image: url(../assets/imgapreton.jpg);
+  background-image: url(../../assets/imgapreton.jpg);
   width: 100%;
   height: 20rem;
   background-size: cover;
