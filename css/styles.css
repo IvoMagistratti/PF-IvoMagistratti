@@ -130,10 +130,11 @@ main {
   }
 }
 .imagen-texto-index2 {
-  background-image: url(../../assets/imgtextoindex2.webp);
+  background-image: url(../assets/imgapreton.jpg);
   width: 100%;
   height: 20rem;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
