@@ -1,0 +1,84 @@
+
+
+.titulo-nosotros {
+    font-size: 4rem;
+    text-align: center;
+    color: $colorTexto;
+    @extend%textShadow;
+}
+
+@media(min-width:768px){
+    .titulo-nosotros {
+        font-size: 5rem;
+    }
+}
+
+
+.info-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    .info-nosotros{
+        flex-direction: row;
+    }
+}
+
+.img-nosotros{
+    width: 27rem;
+    border-radius: 3rem;
+    align-items: center;
+}
+
+@media(min-width:768px){
+    .img-nosotros{
+        width: 50rem;
+        border-radius: 3rem;
+        align-items: center;
+        margin-left: 1rem;
+    }
+}
+.parrafo-nosotros {
+    font-size: 1rem;
+    text-align: center;
+    color: $colorOscuro;
+}
+
+@media(min-width:768px){
+    .parrafo-nosotros {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 2rem;
+    }
+}
+
+.seccion-contactanos {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactanos-h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: $colorTexto;
+    @extend%textShadow;
+}
+
+@media(min-width:768px){
+    .contactanos-h3 {
+        font-size: 1rem;
+    }
+}
+
+.contactanos-boton {
+    padding: .5rem;
+    background-color: $colorFondo;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+}

@@ -1,0 +1,110 @@
+
+.main-profesionales {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    margin: 1rem;
+}
+
+@media(min-width:768px){
+    aside {
+        width: 30%;
+        margin: 3rem;
+    }
+    
+}
+
+aside div {
+    width: 5.5rem;
+    height: 110rem;
+    background-color: $colorFondo;
+    border-radius: 2rem;
+    color: $colorTexto;
+    text-align: center;
+    margin-left: 1rem;
+
+}
+
+@media(min-width:768px){
+    aside div {
+        width: 50%;
+        height: 125rem;
+        border-radius: 3rem;
+        text-align: center;
+        margin-left: 5rem;
+    }
+}
+
+.titulo-profesionales {
+    font-size: 7rem;
+}
+
+@media(min-width:768px){
+    .titulo-profesionales {
+        font-size: 8rem;
+    }
+    
+}
+
+.seccion-profesionales {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.abogado {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+@media(min-width:768px){
+    .abogado {
+        width: 15rem;
+    }
+}
+
+.nombre-abogado {
+    background-color: $colorFondo;
+    color: $colorTexto;
+    @extend%textShadow;
+    text-align: center;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+@media(min-width:768px){
+    .nombre-abogado {
+        padding: 1.5rem;
+        width: 20rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+        margin-left: 30rem;
+    }
+}
+
+.p-abogado {
+    font-size: 1rem;
+    color: $colorOscuro;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .p-abogado {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+}
+
+.info-abogado{
+    display: flex;
+    flex-direction: row;
+}

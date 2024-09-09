@@ -1,0 +1,163 @@
+main {
+    align-items: center;
+}
+
+
+.img-main-index{
+    height: 40rem;
+    width: 98%;
+    height: 28rem;
+    margin: 1%;
+    border-radius: 2rem;
+    box-shadow: 0 0 3px #fff;
+}
+
+@media(min-width:768px){
+    .img-main-index{
+        height: 45rem;
+    }
+}
+
+.h2-index {
+    color:$colorTexto;
+    @extend%textShadow;
+    position: absolute;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+@media(min-width:768px){
+    .h2-index{
+        font-size: 8rem;
+        margin-left: 15rem;
+        margin-top: 15rem;
+    }
+}
+
+.texto-index p {
+    font-size: 1.2rem;
+    color: $colorOscuro;
+    text-align: center;
+    margin: 0;
+    margin: .8rem;
+}
+
+@media(min-width:768px){
+    .texto-index p {
+        font-size: 1.3rem;
+        margin: 2rem;
+    }
+}
+
+.imagen-texto-index2{
+    background-image: url(../../assets/imgtextoindex2.webp);
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+
+}
+
+@media(min-width:768px){
+    .imagen-texto-index2{
+        background-attachment: fixed;
+    }
+}
+
+.links-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-index {
+    padding: 4rem;
+    background-color: $colorFondo;
+    margin: .5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+@media(min-width:768px){
+    .link-index {
+        padding: 4rem;
+        margin: 1rem;
+    }
+}
+
+.lista-index {
+    padding-bottom: 1rem;
+}
+
+.a {
+    margin: 0;
+}
+
+.a:hover {
+    color: rgb(255, 202, 69);
+    transition: .5s;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-newsletter {
+    width: 60%;
+    height: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .mail-newsletter {
+        width: 50rem;
+        height: 2rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}
+
+.enviar-newsletter {
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    color: $colorTexto;
+    background-color: $colorFondo;
+    border: none;
+}
+
+@media(min-width:768px){
+    .enviar-newsletter {
+        width: 15rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.enviar-newsletter:hover {
+    color: $colorHover;
+}
+
+.correo {
+    width: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media(min-width:768px){
+    .correo {
+        width: 5rem;
+    }
+}
