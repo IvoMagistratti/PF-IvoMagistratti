@@ -134,7 +134,7 @@ main {
   width: 100%;
   height: 20rem;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: none;
 }
 
 @media (min-width: 768px) {
@@ -239,45 +239,6 @@ main {
   display: flex;
 }
 
-aside {
-  width: 20%;
-  margin: 1rem;
-}
-
-@media (min-width: 768px) {
-  aside {
-    width: 30%;
-    margin: 3rem;
-  }
-}
-aside div {
-  width: 5.5rem;
-  height: 110rem;
-  background-color: rgba(128, 128, 128, 0.8980392157);
-  border-radius: 2rem;
-  color: #fff;
-  text-align: center;
-  margin-left: 1rem;
-}
-
-@media (min-width: 768px) {
-  aside div {
-    width: 50%;
-    height: 125rem;
-    border-radius: 3rem;
-    text-align: center;
-    margin-left: 5rem;
-  }
-}
-.titulo-profesionales {
-  font-size: 7rem;
-}
-
-@media (min-width: 768px) {
-  .titulo-profesionales {
-    font-size: 8rem;
-  }
-}
 .seccion-profesionales {
   display: flex;
   flex-direction: column;
@@ -286,14 +247,21 @@ aside div {
   margin-top: 3rem;
 }
 
+.info-abogado {
+  display: flex;
+  flex-direction: row;
+}
+
 .abogado {
-  width: 5rem;
+  width: 10rem;
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
   .abogado {
     width: 15rem;
+    margin-left: 15rem;
   }
 }
 .nombre-abogado {
@@ -301,24 +269,25 @@ aside div {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  width: 10rem;
-  font-size: 1rem;
+  width: 15rem;
+  font-size: 1.5rem;
   border-radius: 2rem;
-  margin-left: 3rem;
-  margin-top: 1rem;
+  margin-left: 1.8rem;
+  margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
   .nombre-abogado {
-    padding: 1.5rem;
-    width: 20rem;
-    font-size: 2rem;
+    padding: 1rem;
+    width: 30rem;
+    font-size: 2.5rem;
     border-radius: 2rem;
-    margin-left: 30rem;
+    margin-top: 5rem;
+    margin-left: 12rem;
   }
 }
 .p-abogado {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #000;
   margin-left: 2rem;
   text-align: center;
@@ -330,11 +299,6 @@ aside div {
     margin-left: 3rem;
   }
 }
-.info-abogado {
-  display: flex;
-  flex-direction: row;
-}
-
 .seccion-especialidad {
   display: flex;
   flex-direction: column;
@@ -345,24 +309,21 @@ aside div {
 
 @media (min-width: 768px) {
   .seccion-especialidad {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
   }
 }
 .imagen-especialidad {
-  width: 8rem;
+  width: 90%;
   border-radius: 2rem;
   margin: 4rem 1rem;
 }
 
 @media (min-width: 768px) {
   .imagen-especialidad {
-    width: 20rem;
+    width: 35rem;
     border-radius: 2rem;
-    margin: 4rem 6rem;
+    margin: 8rem 4rem;
   }
 }
 .derecho {
@@ -370,10 +331,10 @@ aside div {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  width: 14rem;
-  font-size: 1rem;
+  width: 18rem;
+  font-size: 1.3rem;
   border-radius: 2rem;
-  margin-left: 1.5rem;
+  margin-left: 5.5rem;
 }
 
 @media (min-width: 768px) {
@@ -389,6 +350,7 @@ aside div {
   font-size: 1rem;
   color: #000;
   text-align: left;
+  margin-left: 10%;
 }
 
 @media (min-width: 768px) {
@@ -398,11 +360,16 @@ aside div {
 }
 .info-especialidad {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .info-especialidad {
+    flex-direction: row;
+  }
+}
 .titulo-nosotros {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: #fff;
 }
@@ -416,6 +383,7 @@ aside div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -431,21 +399,24 @@ aside div {
 
 @media (min-width: 768px) {
   .img-nosotros {
-    width: 50rem;
+    width: 35%;
+    height: 35rem;
     border-radius: 3rem;
     align-items: center;
     margin-left: 1rem;
+    margin-top: 3rem;
   }
 }
 .parrafo-nosotros {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #000;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
   .parrafo-nosotros {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     margin: 2rem;
   }

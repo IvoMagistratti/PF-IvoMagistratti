@@ -9,25 +9,22 @@
 
 @media(min-width:768px){
     .seccion-especialidad {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         justify-content: center;
         margin-top: 3rem;
     }
 }
 
 .imagen-especialidad {
-    width: 8rem;
+    width: 90%;
     border-radius: 2rem;
     margin: 4rem 1rem;
 }
 
 @media(min-width:768px){
     .imagen-especialidad {
-        width: 20rem;
+        width: 35rem;
         border-radius: 2rem;
-        margin: 4rem 6rem;
+        margin: 8rem 4rem;
     }
 }
 
@@ -37,10 +34,10 @@
     @extend%textShadow;
     text-align: center;
     padding: 1rem;
-    width: 14rem;
-    font-size: 1rem;
+    width: 18rem;
+    font-size: 1.3rem;
     border-radius: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 5.5rem;
 }
 
 @media(min-width:768px){
@@ -57,6 +54,7 @@
     font-size: 1rem;
     color: $colorOscuro;
     text-align: left;
+    margin-left: 10%;
 }
 
 @media(min-width:768px){
@@ -66,5 +64,10 @@
 }
 .info-especialidad{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+@media(min-width:768px){
+    .info-especialidad{
+        flex-direction: row;
+    }
 }
